@@ -9,6 +9,7 @@ public class Literals {
         System.out.println(age);
         System.out.println(Name);
         System.out.println(age2);
+        System.out.println(ch);
     }
 }
 // Here literals are used in the above code
