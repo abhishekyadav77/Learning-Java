@@ -17,5 +17,8 @@ public class Practice_set_ch2 {
          replace = replace.replace(" " ,"_" );
 
         System.out.println(replace);
+        String mystring = "This string  contains  double and triple spaces ";
+        System.out.println(mystring.indexOf("  "));
+
     }
 }
