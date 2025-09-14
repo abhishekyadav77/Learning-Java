@@ -1,7 +1,7 @@
 public class cwh_22_do_while {
     public static void main(String[] args){
     int a=0;
-    while ((a<46)){
+    while (a<46){
         System.out.println(a);
         a++;
     }
