@@ -9,6 +9,7 @@ package Java_Oops;
         System.out.println("My name is " +name);
         System.out.println("My salary is "+ salary);
     }
+
 public int get_salary(){
         return salary;
 }
