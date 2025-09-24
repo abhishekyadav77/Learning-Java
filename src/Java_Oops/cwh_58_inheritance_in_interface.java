@@ -27,6 +27,10 @@ class mysampleclass implements childsampleinterface{
 
 public class cwh_58_inheritance_in_interface {
     public static void main(String[] args) {
-
+mysampleclass obj = new mysampleclass();
+obj.meth1();
+obj.meth2();
+obj.meth3();
+obj.meth4();
     }
 }
