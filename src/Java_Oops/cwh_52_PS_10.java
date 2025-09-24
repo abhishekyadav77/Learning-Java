@@ -31,6 +31,6 @@ public class cwh_52_PS_10 {
         //problem 1
 
 //        Circle2 objc= new Circle2(12);
-        Cylinder1 obj = new Cylinder1(12,4);
+        Cylinder1 obj = new Cylinder1(7,8);
     }
 }
