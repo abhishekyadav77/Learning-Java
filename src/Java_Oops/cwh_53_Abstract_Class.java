@@ -1,6 +1,6 @@
 package Java_Oops;
 abstract class Parent3{
-    public Parent32(){
+    public void Parent32(){
         System.out.println("I am constructor of Base2");
     }
     public void sayHello(){
