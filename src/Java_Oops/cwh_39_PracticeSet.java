@@ -19,13 +19,15 @@ class Employee1 {
 
         }
     }
-class phone{
+abstract class phone{
     public void ringing(){
         System.out.println("Ringing.....");
     }
     public void vibrating(){
         System.out.println("Vibrating......");
     }
+
+    public abstract void showtime();
 }
 class square{
     int side;
@@ -49,7 +51,12 @@ abhi.set_name("Abhishek");
 abhi.salary= 56000;
         System.out.println(abhi.get_salary());
 
-        phone V = new phone();
+        phone V = new phone() {
+            @Override
+            public void showtime() {
+
+            }
+        };
         V.ringing();
         V.vibrating();
         System.out.println();
